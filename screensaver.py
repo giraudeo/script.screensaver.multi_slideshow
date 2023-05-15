@@ -19,12 +19,7 @@
 
 import random
 import sys
-
-if sys.version_info >= (2, 7):
-    import json
-else:
-    import simplejson as json
-
+import json
 import xbmc
 import xbmcaddon
 import xbmcvfs
